@@ -1,0 +1,67 @@
+a {  text-decoration: none; font-family: 'Arial CE', 'Helvetica CE', Arial, Helvetica, sans-serif; font-size: 8pt}
+a:hover {  text-decoration: underline}
+body {  text-decoration: none; font-family: 'Arial CE', 'Helvetica CE', Arial, Helvetica, sans-serif; font-size: 8pt}
+td {  text-decoration: none; font-family: 'Arial CE', 'Helvetica CE', Arial, Helvetica, sans-serif; font-size: 8pt}
+
+
+.tlacitko
+            {   color: lightgreen;
+                border-color:red;
+                background-color: black;
+                 border-style: solid
+            }
+
+.pompole
+            {   border-color:#c7c8c2;
+                background-color: silver;
+                border-style: solid
+            }
+
+
+.selpole
+            {   border-color:#c7c8c2;
+border-width: 0;
+
+                background-image: //shalmirane.lsd.cz/poz.gif;
+                border-style: none
+
+            }
+
+
+.pompoleakt
+            {   border-color:yellow;
+                background-color: white;
+                border-style: solid
+            }
+
+.mainsubmit
+            {   border-color: lightgreen;
+                background-color: black;
+                font-weight: bold;
+                font-size: 4pt;
+                color: lightgreen;
+                border-style: solid
+            }
+
+.banner
+            {   border-color:red;
+                background-color: white;
+                border-style: solid
+            }
+
+.hlpole
+            { border-color:#c7c8c2;
+                background-color: white;
+                border-style: solid
+            }
+.list
+                        {
+                color: lime;
+                border-color: lime;
+                background-color: black;
+                 border-style: solid;
+                        }
+th
+	    {
+		font-size: 9pt;
+	    }
