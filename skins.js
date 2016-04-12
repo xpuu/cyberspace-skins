@@ -16,7 +16,7 @@ $(function () {
 		$.each(data, function (k, v) {
 			//console.log(v);
 			var n = v.name;
-			if (n.indexOf('.css' != -1)) {
+			if (n.indexOf('.css') != -1) {
 				$sel.append('<option value="' + n + '">' + n.toUpperCase() + '</option>');
 			}
 		});
