@@ -1,0 +1,73 @@
+.abovewutable{margin-left:auto;margin-right:auto;padding:0pt;vertical-align:bottom;width:100%}
+.actgraph{background-color:#444;text-align:center;vertical-align:top}
+.agraph{border:solid 0pt;height:154px;width:561px}
+.belowwutable{margin-left:auto;margin-right:auto;padding:0pt;width:100%}
+.bigtextarea{background-color:#444;border:solid 1px #000;color:#EEE;font:x-small Verdana,Arial,Helvetica,Geneva,Swiss,SunSans-Regular;height:200pt;width:600pt}
+.booktd{background-color:#444;margin-bottom:0;padding-bottom:0px;padding-left:1pt;padding-top:0px}
+.bookth{background-color:#333;padding-bottom:0px;padding-top:0px;text-align:center}
+.chattable{margin-left:auto;margin-right:auto;padding:5pt;width:100%}
+.chattd{background-color:#444;text-align:center}
+.chattdl{background-color:#444;text-align:left}
+.chattdlsud{background-color:#858563;text-align:left}
+.chattdr{background-color:#444;text-align:right}
+.clubcontrols1{padding:0pt;text-align:right;vertical-align:bottom}
+.controls2{background-color:#333;height:6pt;padding:2pt}
+.controls2l{background-color:#333;height:6pt;padding:2pt;text-align:right}
+.controls3{background-color:#333;height:6pt;padding:2pt;text-align:center}
+.def_button{background-color:#333;border-bottom-color:#222;border-bottom-style:solid;border-bottom-width:1pt;border-left-color:#F60;border-left-style:solid;border-left-width:1pt;border-right-color:#222;border-right-style:solid;border-right-width:1pt;border-top-color:#444;border-top-style:solid;border-top-width:1pt;color:#bbb;font-size:x-small}
+.def_checkbox{background-color:transparent;border:dotted 1pt;color:#BBB;margin:0px;margin-left:4px;margin-right:4px;padding:0px}
+.def_dropdown{background-color:#444;border:solid 0pt #444;border-color:#444;color:#DDD;font:x-small Verdana,Arial,Helvetica,Geneva,Swiss,SunSans-Regular;text-align:center}
+.def_radiobutton{background-color:#444;color:#BBB}
+.def_table{margin-left:auto;margin-right:auto;width:100%}
+.def_td{color:#BBB;font:x-small Verdana,Geneva,Arial,sans-serif;vertical-align:top}
+.def_textarea{background-color:#444;border:solid 1px #000;color:#EEE;font:x-small Verdana,Arial,Helvetica,Geneva,Swiss,SunSans-Regular;height:60pt;width:550pt}
+.def_th{background-color:#333;color:#DDD;font:x-small Verdana,Geneva,Arial,sans-serif}
+.disclistcat{background-color:#333;padding-left:5pt}
+.disclisttd{background-color:#444;padding-bottom:0px;padding-left:20pt;padding-top:0px}
+.footer{bottom:0%;color:#333;font:5pt Verdana,Arial,Helvetica,Geneva,Swiss,SunSans-Regular;height:15px;left:0;margin:0pt;position:fixed;right:0;text-align:right;top:auto;width:100%}
+.fredittd{background-color:#444;text-align:center;vertical-align:middle;width:50pt}
+.gwtd{background-color:#444;padding-left:4pt;padding-right:4pt}
+.hometd{background-color:#444;text-align:left;vertical-align:top}
+.ico{border:solid 0pt;height:50px;width:40px}
+.id{font-weight:600}
+.infoicotd{background-color:#333;padding:2pt;text-align:center;vertical-align:top;width:40px}
+.infotd{background-color:#444;text-align:center}
+.infotdr{background-color:#444;text-align:right;width:100pt}
+.inputoutertable{width:100%}
+.inputtable{margin:0pt;padding:2pt}
+.new{color:#F60;font-weight:600}
+.new_ralert{color:#F00;font-weight:600}
+.newstd{background-color:#444;vertical-align:top}
+.notetable{border:solid 1pt #444;margin:10pt 0pt;padding:2pt;width:99%}
+.readers{text-align:center}
+.smallico{border:solid 0pt;height:25px;width:20px}
+.smalltable{border:solid 1pt #000;margin-left:auto;margin-right:auto;padding:2pt;width:200pt}
+.smalltd{background-color:#444;padding-left:2pt;text-align:center}
+.smalltdl,.infotdl{background-color:#444;text-align:left}
+.smalltdr{background-color:#444;text-align:right}
+.smalltextarea{background-color:#444;border:solid 1px #000;color:#EEE;font:x-small Verdana,Arial,Helvetica,Geneva,Swiss,SunSans-Regular;height:80pt;width:160pt}
+.spacer{height:4em}
+.topmenuacttd{background:url('http://home.tiscali.cz/~jezecek/menu_bck.gif') #F60;color:#232323;font-weight:bold;padding-left:3px;padding-right:3px;padding-top:5px;text-align:center}
+.topmenudropdown{background-color:#333;border:solid 1px #333;border-color:#333;color:#DDD;float:right;font:7pt Verdana,Arial,Helvetica,Geneva,Swiss,SunSans-Regular;text-align:center}
+.topmenudroptd{background-color:#333}
+.topmenustatustd{background-color:#333;border-bottom:1px solid black;padding:1pt 0pt 2pt 10pt;text-align:left}
+.topmenutable{margin:0pt;padding:0pt;position:fixed;width:100%}
+.topmenutd{background-color:#333;font-weight:400;text-align:center}
+.usericotd{background-color:#333;padding:1pt;text-align:center;vertical-align:top;width:40px}
+.usertd{background-color:#444;padding:2pt;vertical-align:top}
+.wuicotd{background-color:#444;padding:1pt;text-align:center;vertical-align:top;width:40px}
+.wutable{margin:0pt;padding:0pt;width:100%}
+.wutd{background-color:#444;padding:1pt 2pt;vertical-align:top}
+.wutdown{background-color:#555;padding:1pt 2pt;vertical-align:top}
+a{color:#BBB;text-decoration:none}
+a.toplink,a.toplink:visited{background-color:#F60;border-bottom:1px solid #BBB;color:#232323;font-weight:bold;padding-left:3px;padding-right:3px;padding-top:5px;text-align:center}
+a.toplink:active{background:url('http://home.tiscali.cz/~jezecek/menu_bck.gif') #F60;color:#232323;font-weight:bold;padding-left:3px;padding-right:3px;padding-top:5px}
+a.toplink:hover{background-color:#F60;border-bottom:1px solid #BBB;color:#BBB;font-weight:bold;padding-left:3px;padding-right:3px;padding-top:5px;text-align:center}
+a:hover{color:#F60}
+a:visited{color:#BBB}
+body{background:url('http://home.tiscali.cz/~jezecek/csbg.gif') #232323;font:x-small Arial,Helvetica,sans-serif;margin:0pt 5pt 5pt 5pt;padding:0px;scrollbar-3dlight-color:#232323;scrollbar-arrow-color:#494D36;scrollbar-darkshadow-color:#232323;scrollbar-face-color:#444;scrollbar-highlight-color:#8F906F;scrollbar-shadow-color:#232323;scrollbar-track-color:#444}
+div{font-family:Verdana,Geneva,Arial,sans-serif}
+form{margin:0;padding:0}
+img{border:0pt}
+input.def_inputbox{background-color:#444;border:solid 1pt #222;color:#DDD;font:x-small Verdana,Arial,Helvetica,Geneva,Swiss,SunSans-Regular;margin:0pt 0pt;text-align:center;vertical-align:top}
+td{color:#DDD;font:x-small Verdana,Geneva,Arial,sans-serif}
