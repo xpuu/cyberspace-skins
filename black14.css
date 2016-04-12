@@ -1,0 +1,666 @@
+/* body */
+body
+ {
+    font-size: 14pt;
+	font-family:Calibri,Verdana,Geneva,Arial,sans-serif;
+    background-color: #000000;
+    margin-top: 0pt;
+    margin-bottom: 5pt;
+    margin-left: 5pt;
+    margin-right: 5pt;
+    scrollbar-3dlight-color: #233333; 
+    scrollbar-arrow-color: #233333; 
+    scrollbar-darkshadow-color: #222222; 
+    scrollbar-face-color: #232323; 
+    scrollbar-highlight-color: #333333; 
+    scrollbar-shadow-color: #222222; 
+    scrollbar-track-color: #000000; 
+    padding: 0px;    
+ }
+
+
+img 
+{
+ border: 0pt;
+}
+
+form
+{
+margin: 0;
+padding: 0;
+}
+
+/* default odkaz*/
+a 
+ {
+  text-decoration:none;
+  color:#60a060;
+ }
+
+
+a:visited {color:#60a060}
+a:hover {color:#60c060} 
+
+/* link v hornim menu*/
+a.toplink {color:#DDDDDD}
+a.toplink:active {color:#DDDDDD}
+a.toplink:visited {color:#DDDDDD}
+a.toplink:hover {color:#AAAAAA} 
+
+/* RSS Header */
+h3
+ {
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+ }
+
+/* jenom kvuli fontu pokud je neco v divu */
+div
+ {
+ font-family:Calibri,Verdana,Geneva,Arial,sans-serif;
+ }
+
+
+/* defaultni tabulka */
+.def_table
+ {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+ }
+ 
+/* defaultni td (vsechny by meli mit classu def_td, zatim je to nadvakrat) */
+td
+ {
+  font-family:Calibri,Verdana,Geneva,Arial,sans-serif;
+  font-size: 14pt;
+  color:#CCCCCC;
+ }
+
+.def_td
+ {
+  font-family:Calibri,Verdana,Geneva,Arial,sans-serif;
+  font-size: 14pt;
+  color:#CCCCCC;
+  vertical-align:top;
+ }
+
+/* defaultni header tabulek */
+.def_th 
+ {
+  font-family:Calibri,Verdana,Geneva,Arial,sans-serif;
+  font-size: 14pt;
+  background-color: #292929;
+  color:#DDDDDD	;
+ }
+
+/* ikonka uzivatele*/
+.ico 
+  { 
+   width: 40px; 
+   height: 50px; 
+   border: solid 0pt;
+  }
+
+/* mala ikonka uzivatele*/
+.smallico 
+  { 
+   width: 20px; 
+   height: 25px; 
+   border: solid 0pt;
+  }
+
+/* graf aktivnich*/
+.agraph
+ {
+ width: 561px;
+ height: 154px;
+ border: solid 0pt;
+ }
+
+
+
+/* tlacitko */
+.def_button {
+	font-size: 14pt;
+
+        border-left-style: solid;
+	border-left-color: #60a060;
+	border-left-width: 1px;
+
+	border-top-style: solid;
+	border-top-color: #60a060;
+	border-top-width: 1px;
+
+	border-right-style: solid;
+	border-right-color: #60c060;
+	border-right-width: 1px;
+
+	border-bottom-style: solid;
+	border-bottom-color: #60c060;
+	border-bottom-width: 1px;
+
+	background-color:#000000 ;
+	color: #60c060;
+	}
+
+
+/* textovy vstupy */
+input.def_inputbox
+ { 
+  color: #c0c0c0; 
+  font-size: 14pt; 
+  font-family: Verdana, Arial, Helvetica, Geneva, Swiss, SunSans-Regular; 
+  background-color:#000000; 
+  vertical-align: top;
+  text-align: center; 
+  margin: 0pt; 
+  border: solid 1px #60c060; 
+ }
+
+
+/* velka textarea v klubu, poste a osobnim */
+.def_textarea 
+ { 
+   color: #c0c0c0; 
+   font-size: 14pt; 
+   font-family: Verdana, Arial, Helvetica, Geneva, Swiss, SunSans-Regular; 
+   background-color: #000000; 
+   border: solid 1px #60c060; 
+   width: 550pt; 
+   height: 60pt; 
+ }
+
+/* velka textarea v chatu*/
+.chattextarea 
+ { 
+   color: #c0c0c0; 
+   font-size: 14pt; 
+   font-family: Verdana, Arial, Helvetica, Geneva, Swiss, SunSans-Regular; 
+   background-color: #000000; 
+   border: solid 1px #60c060; 
+   width: 550pt; 
+   height: 60pt; 
+ }
+
+/* mala textarea pro mensi tabulky */
+.smalltextarea 
+ { 
+   color: #c0c0c0; 
+   font-size: 14pt; 
+   font-family: Verdana, Arial, Helvetica, Geneva, Swiss, SunSans-Regular; 
+   background-color: #000000; 
+   border: solid 1px #60c060; 
+   width: 160pt; 
+   height: 80pt; 
+ }
+
+/* velka textarea pro editaci home a note */
+.bigtextarea 
+ { 
+   color: #EEEEEE; 
+   font-size: 14pt; 
+   font-family: Verdana, Arial, Helvetica, Geneva, Swiss, SunSans-Regular; 
+   background-color: #000000; 
+   border: solid 1px #60c060; 
+   width: 600pt; 
+   height: 200pt; 
+ }
+
+/* tabulka pro horni menu*/
+.topmenutable
+ {
+  margin: 0pt;
+  width: 100%;
+  padding: 0pt;
+ }
+
+/* td horniho menu*/
+.topmenutd
+ {
+   background-color: #252525; 
+   text-align: center;
+   font-weight: 400;
+ }
+
+/* oznaceni aktivni lokace*/
+.topmenuacttd
+ {
+   background-color:#313131; 
+   text-align: center;
+   font-weight: 400;
+ }
+
+
+/* td pro dropdown v hornim menu*/
+.topmenudroptd
+ {
+    background-color:#252525; 
+ }
+
+/* druha rada horniho menu*/
+.topmenustatustd
+ {
+  background-color:#000000; 
+  text-align: left;
+  padding-top: 1pt;
+  padding-bottom: 1pt;
+  padding-left: 10pt;
+  padding-right: 0pt;
+ }
+
+/* span pro id*/
+.id
+ {
+  font-weight: 600;
+ }
+
+/* span pro cokoliv novyho + chyby*/
+.new
+ {
+  color: #c03030;
+  font-weight: 600;
+ } 
+
+/* span pro [r]*/
+.new_ralert
+ {
+  color: #DD3030;
+  font-weight: 600;
+ } 
+
+
+
+/* span pro status*/
+.status
+ {
+ } 
+
+
+
+/* dropdown menu v horni liste*/
+.topmenudropdown 
+  {
+   font-size: 7pt; 
+   font-family: Verdana, Arial, Helvetica, Geneva, Swiss, SunSans-Regular; 
+   text-align: center; 
+   border: solid 1px #60c060; 
+   color: #DDDDDD;
+   border-color: #000000;
+   float: right;
+   background-color:#000000;
+  }
+
+/* ostatni dropdown menu*/
+.def_dropdown 
+  {
+   font-size: 14pt; 
+   font-family: Verdana, Arial, Helvetica, Geneva, Swiss, SunSans-Regular; 
+   text-align: center; 
+   border: solid 0pt #000000 ; 
+   color: #60c060;
+   border-color: #000000;
+   background-color:#000000;
+  }
+
+/* guess what*/
+.def_checkbox 
+ {
+  color: #CCCCCC;
+  background-color: transparent;
+  border: solid 0pt;
+  padding: 0px;
+  margin: 0px;
+ }
+
+/* guess what*/
+.def_radiobutton 
+ {
+  background-color:#233333; 
+  color: #233333;
+ }
+
+/* mensi tabulky */
+.smalltable
+ {
+  width: 200pt;
+  padding: 2pt;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid 1pt #000000;
+ }
+
+/* td male tabulky */
+.smalltd
+ {
+  text-align:center;
+  background-color:#233333;
+  padding: 1pt;
+  padding-left: 2pt;
+ }
+
+/* doprava zarovnana bunka maly tabulky */
+.smalltdr
+ {
+  text-align:right;
+  background-color:#233333;
+ }
+
+/* doleva zarovnana bunka maly tabulky (obvykle s inputem) */
+.smalltdl
+ {
+  text-align:left;
+  background-color:#233333;
+ }
+
+/* td v navigacnich tabulkach*/
+.infotd
+ {
+   background-color:#3a3a3a;
+   text-align:center; 
+ }
+
+/* td pro vlastni ikonku v info a pro ikonky pratel atd.*/
+.infoicotd
+ {
+  width: 40px;
+  text-align: center;
+  vertical-align: top;
+  padding: 1pt;
+  background-color:#3a3a3a; 
+ }
+
+/*  doprava zarovnana bunka v infu*/
+.infotdr
+ {
+   width: 100pt;
+   background-color:#3a3a3a;
+   text-align:right; 
+ }
+
+/*  doleva zarovnana bunka v infu*/
+.infotdl
+ {
+   background-color:#3a3a3a;
+   text-align:left; 
+ }
+
+/* header v bookmarkach*/
+.bookth
+ {
+  text-align:center;
+  background-color:#292929 ;
+  padding-top: 0px;
+  padding-bottom: 0px;  
+ }
+
+
+/* polozka v bookmarkach*/
+.booktd
+ {
+  background-color:#233333;
+  padding-left: 10pt;
+  padding-top: 0px;
+  padding-bottom: 0px;  
+ }
+
+/* td pro home klubu*/
+
+.hometd
+ {
+  background-color:#424242; 
+  vertical-align: top;
+  text-align: left;
+ }
+
+/* td pro ikonku*/
+.usericotd
+ {
+  width: 40px;
+  text-align: center;
+  vertical-align: top;
+  padding: 1pt;
+  background-color:#3a3a3a; 
+ }
+ 
+/* td pro text v seznamu useru (active)*/
+.usertd
+ {
+  background-color:#233333; 
+  vertical-align: top;
+  padding: 2pt;
+ }
+
+/* td pro text v seznamu useru*/
+.fredittd
+ {
+  background-color: #233333; 
+  vertical-align: middle;
+  text-align: center;
+  width: 50pt;
+ }
+
+/* td pro text clanku*/
+.newstd
+ {
+  background-color:#233333; 
+  vertical-align: top;
+ } 
+ 
+/* tabulka na prispevky v chatu*/
+.chattable
+ {
+  padding: 5pt;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+ }
+
+/* td pro datum prispevku v chatu*/
+.chattd
+ {
+  background-color:#233333;
+  text-align: center; 
+ }
+
+/* td pro autora v chatu*/
+.chattdr
+ {
+  background-color:#233333;
+  text-align: right; 
+ }
+
+/* td pro lichy radek textu v chatu*/
+.chattdl
+ {
+  background-color:#233333;
+  text-align: left; 
+ }
+
+/* td pro sudy radek textu v chatu*/
+.chattdlsud
+ {
+  background-color:#232323;
+  text-align: left; 
+ }
+ 
+/* graf v aktivnich*/
+.actgraph
+ {
+  background-color:#233333; 
+  vertical-align: top;
+  text-align:center;
+ }
+
+
+/* tabulka pro anotaci klubu*/
+.notetable
+ {
+  margin-top: 10pt;
+  margin-bottom: 10pt;
+  margin-left: 0pt;
+  margin-right: 0pt;
+  width: 99%;
+  padding: 2pt;
+  border: solid 1pt #233333;
+ }
+
+/* venkovni tabulka kolem inputu v poste a klubu*/
+ .inputoutertable
+ {
+  width: 100%;
+ }
+
+/* tabulka inputu v poste a klubu*/
+ .inputtable
+ {
+  margin: 0pt;
+  padding: 2pt;
+ }
+
+/* 1r tabulka nad prispevkama v poste a klubu*/
+.abovewutable
+ {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding: 0pt;
+  vertical-align: bottom;
+ }
+
+/* tabulka pro prispevky v poste a klubu*/
+.wutable
+ {
+  margin: 0pt;
+  width: 100%;
+  padding: 0pt;
+ }
+
+/* td pro ikonku u prispevku*/ 
+.wuicotd
+ {
+   background-color:#3a3a3a;
+   width: 42px;
+   text-align: center;
+   padding: 1pt;
+   vertical-align: top;
+ } 
+
+/* td pro prispevek*/
+.wutd
+ {
+   vertical-align: top;
+   background-color:#233333;
+   padding-top: 1pt;
+   padding-bottom: 1pt;
+   padding-left: 2pt;
+   padding-right: 2pt;
+ }
+
+/* td pro vlastni prispevek*/
+.wutdown
+ {
+   vertical-align: top;
+   background-color:#232323;
+   padding-top: 1pt;
+   padding-bottom: 1pt;
+   padding-left: 2pt;
+   padding-right: 2pt;
+
+ }
+
+.clubcontrols1
+ {
+  text-align: right;
+  vertical-align: bottom;
+  padding: 0pt;
+ }
+
+/*1t tabulka pod prispevkama*/
+.belowwutable
+ {
+  width: 100%;
+  padding: 0pt;
+  margin-left: auto;
+  margin-right: auto;
+ }
+
+/* obsah abovewutable */
+.controls2
+ {
+   background-color:#292929; 
+   padding: 2pt;
+   height: 6pt;
+ } 
+
+/* obsah abovewutable zarovanej doprava (export, del)*/
+.controls2l
+ {
+   text-align: right;
+   background-color:#292929; 
+   padding: 2pt;
+   height: 6pt;
+ } 
+
+/* obsah belowwutable */
+.controls3
+ {
+   background-color:#292929; 
+   padding: 2pt;
+   height: 6pt;
+   text-align: center;
+ } 
+
+ 
+/* div pro lidi ve stejny lokaci*/
+.readers
+ {
+  text-align: center;
+ }
+
+
+/* tabulky na gatewayi*/
+.gwtd
+ {
+  background-color:#233333;
+  padding-left: 4pt;
+  padding-right: 4pt;
+ }
+
+
+
+/* kategorie v seznamu diskuzi + chatu*/
+.disclistcat
+ {
+  background-color: #292929;
+  padding-left: 5pt;
+ }
+
+
+/* link s seznamu diskuzi + chatu*/
+.disclisttd
+ {
+  background-color: #233333;
+  padding-left: 20pt;
+  padding-top: 0px;
+  padding-bottom: 0px;  
+ }
+
+
+/* zapati (Mozilla to umi spravne)*/
+.footer
+ {
+  font-size: 5pt;
+  font-family: Calibri, Verdana, Arial, Helvetica, Geneva, Swiss, SunSans-Regular;  
+  margin: 0pt;
+  color: #BBBBBB;
+  text-align: right;
+  position: fixed;
+  width: 100%;
+  height: 15px;
+  top: auto;
+  right: 0;
+  bottom: 0%;
+  left: 0;
+ }
+
